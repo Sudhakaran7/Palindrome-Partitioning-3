@@ -1,0 +1,49 @@
+You are given a string s containing lowercase letters and an integer k. You need to :
+First, change some characters of s to other lowercase English letters.
+Then divide s into k non-empty disjoint substrings such that each substring is palindrome.
+Return the minimal number of characters that you need to change to divide the string.
+
+Input Description:
+A string s and integer k as inputs.
+
+Output Description:
+Print the minimal number of characters that you need to change to divide the string.
+
+Sample Input:
+abc 2
+
+Sample Output:
+1
+
+Explanation:
+You can split the string into "ab" and "c", and change 1 character in "ab" to make it palindrome.
+
+Sample Input:
+guvg 2
+
+Sample Output:
+1
+
+Sample Input:
+wwerrty 2
+
+Sample Output:
+2
+
+Sample Input:
+pkijy 5
+
+Sample Output:
+0
+
+Sample Input:
+google 2
+
+Sample Output:
+1
+
+Sample Input:
+ooiyt 1
+
+Sample Output:
+2
